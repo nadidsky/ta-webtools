@@ -391,6 +391,26 @@
                             }
                         },
                         {
+                            "field": "enforcehttps",
+                            "label": "Enforce HTTPS",
+                            "help": "enables disables the enforcing the HTTPS in the curl command. By default is enabled",
+                            "required": false,
+                            "type": "radio",
+                            "defaultValue": "1",
+                            "options": {
+                                "items": [
+                                    {
+                                        "value": "1",
+                                        "label": "True"
+                                    },
+                                    {
+                                        "value": "0",
+                                        "label": "False"
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "field": "verify_ssl",
                             "label": "Verify SSL",
                             "help": "",
